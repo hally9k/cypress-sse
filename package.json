@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js & http-server",
-    "debug": "ndb server.js & http-server",
-    "test": "npm start & cypress open"
+    "debug": "ndb server.js & http-server && cypress open"
   },
   "author": "",
   "license": "ISC",
