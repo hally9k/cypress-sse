@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js & http-server",
-    "debug": "node --inspect server.js & http-server",
+    "debug": "ndb server.js & http-server",
     "test": "npm start & cypress open"
   },
   "author": "",
@@ -15,6 +15,6 @@
     "options": "0.0.6"
   },
   "devDependencies": {
-    "cypress": "^2.1.0"
+    "cypress": "^3.1.0"
   }
 }
